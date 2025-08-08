@@ -10,7 +10,11 @@ const app = express();
 const allowedOrigins = [
   'https://omardjo.github.io',
   'https://backend-scanflow.onrender.com',
-  'http://localhost:80',     
+  'http://localhost:80', 
+  'http://localhost',                   // Covers http://localhost (no port)
+  'http://localhost:80',                // Explicit port 80
+  'http://127.0.0.1',                   // IP alias without port
+  'http://127.0.0.1:80',       
   ...(process.env.NODE_ENV === 'development'
     ? ['http://localhost:3000', 'http://127.0.0.1:3000']
     : []),
