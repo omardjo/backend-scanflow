@@ -15,7 +15,10 @@ const allowedOrigins = [
   'http://localhost:80',     
   'https://tijari.biz:8443',              // Your new domain root
   'https://tijari.biz:8443/scanflow/',
-  'https://app.tijari.biz/scanflow/',
+  'https://app.tijari.biz',               // ADD: Without path
+  'https://app.tijari.biz/',              // ADD: With trailing slash
+  'https://app.tijari.biz/scanflow',      // ADD: Without trailing slash
+  'https://app.tijari.biz/scanflow/',   
   'https://mavision.my:8443/scanflow/',
   'https://196.178.168.135:9443',   
   'https://196.178.168.135:9443/scanflow/', 
