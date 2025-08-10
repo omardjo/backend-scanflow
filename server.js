@@ -15,6 +15,7 @@ const allowedOrigins = [
   'http://localhost:80',     
   'https://tijari.biz:8443',              // Your new domain root
   'https://tijari.biz:8443/scanflow/',
+  'https://app.tijari.biz/scanflow/',
   'https://mavision.my:8443/scanflow/',
   //commet to ensure something             // Explicit port 80
   'http://127.0.0.1',                   // IP alias without port
