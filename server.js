@@ -27,6 +27,7 @@ const allowedOrigins = [
   'http://localhost:63144/', // ADD: Localhost with port
   'http://localhost:63144',  // ADD: Localhost without trailing slash
   'http://localhost:53061/scanflow', // ADD: Localhost with path
+  'http://localhost:49386', // ADD: Localhost with path and trailing slash/ ADD: Without trailing slash
 
   //commet to ensure something             // Explicit port 80
   'http://127.0.0.1',                   // IP alias without port
